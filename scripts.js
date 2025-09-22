@@ -62,10 +62,3 @@ nextButton.addEventListener('click', () => {
 });
 
 renderCard();
-
-const restartButton = document.getElementById('restart');
-
-restartButton.addEventListener('click', () => {
-    cardNumber = 1;           // volta para o primeiro card
-    renderCard();             // mostra novamente a primeira pergunta
-});
